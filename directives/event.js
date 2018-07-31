@@ -4,6 +4,7 @@ app.directive("event", function () {
         scope: {
             data: '@'
         },
-        template: "<div class='event'>{{data}}</div>"
+        // template: "<div class='event'>{{data}}</div>
+        templateUrl: "templates\event.html"
     };
 });
