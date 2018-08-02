@@ -22,7 +22,7 @@
 <body>
 	<div class="container wrap">
 		<div class="row">
-			<div style="background-image: url({{e.venue.thumbnails.s_cd}});" class="col-2 eventContainer" ng-repeat="e in events">
+			<div style="background-image: url({{e.venue.thumbnails.s_cd}});" class="col-lg-2 col-md-5 col-sm-12 eventContainer" ng-repeat="e in events">
 				<div class="infoContainer">
 					<span class="info"> {{e.type == 0 ? 'Concierto': 'Festival' }} - {{e.start_date | date:'yyyy-MM-dd' }} {{e.city.name}}</span>
 					<span class="title">{{e.title | limitTo:30}}</span>
