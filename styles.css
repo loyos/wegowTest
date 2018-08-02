@@ -2,9 +2,47 @@ body{
     background-color: black;
 }
 
-.container{
+.wrap{
 	height: 100vh; 
 	display: flex; 
 	align-items: center; 
 	justify-content: center;
+	text-align: center;
+}
+
+.eventContainer{
+	display: flex;
+	color: white;
+	height: 150px;
+	margin: 1%;
+	font-size: 14px;
+	background-size: cover;
+	align-items: flex-end;
+	padding: 0px;
+}
+
+.infoContainer{
+	height: 50%;
+	width: 100%;
+	background: linear-gradient(rgba(0,0,0,0.5),black);
+	text-align: left;
+	padding: 4px;
+}
+
+span{
+	clear: both;
+	display: block;
+}
+
+.info{
+	font-size: 11px;
+}
+
+.price{
+	float: right;
+	font-size: 16px;
+}
+
+.title{
+	font-weight: bold;
 }
